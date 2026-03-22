@@ -502,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/RP2350B-DIP40-rev0.8/",
+      "plot": "gerber/RP2350B-DIP40-rev1.0",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
