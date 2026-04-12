@@ -29,6 +29,7 @@ function(add_test_target target)
 endfunction()
 
 add_test_target(blink)
+add_test_target(pins)
 add_test_target(uart_echo)
 add_test_target(spi_sd)
 add_test_target(gpio)

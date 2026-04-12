@@ -3,16 +3,16 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
-#define USE_SOFT_SPI 1
+#define USE_SOFT_SPI 0
 
 #if !USE_SOFT_SPI
 #include "hardware/spi.h"
 #endif
 
-#define PIN_MOSI  40
+#define PIN_MISO  40
 #define PIN_CS    41
 #define PIN_SCK   42
-#define PIN_MISO  43
+#define PIN_MOSI  43
 
 #if !USE_SOFT_SPI
 #define SD_SPI          spi1
